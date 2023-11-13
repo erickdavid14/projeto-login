@@ -41,7 +41,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow:7px 8px 6px 0px #2d153dc9;
-
+    
+    transition: width .2s, heith .2s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
