@@ -66,6 +66,7 @@ section#login > div#formulario > h1 {
 }
 div#formulario > p {
     font-size: 0.9em;
+    margin-bottom:10px ;
 }
 
 form > input[type=submit] {
@@ -117,7 +118,32 @@ form > div.campo  {
     background-color: #5f2c82;
     height: 40px;
     margin: 5px 0px;
-    border-radius: 5px;
+    border-radius: 10px;
+    border: 3px solid #5f2c82;
+}
+
+div.campo i {
+    color: white;
+    
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: #69ebe6;
+    border: none;
+    width: calc(100% - 43.93px);
+    height: 100%;
+    transform: translateY(-10px);
+    border-radius: 8px;
+    padding: 3px;
+    
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+    
 }
 
 form label {
