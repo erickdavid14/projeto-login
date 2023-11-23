@@ -44,6 +44,7 @@ section#login {
     
     transition: width .5s, heith .5s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 section#login > div#imagem {
@@ -119,7 +120,7 @@ form > div.campo  {
     height: 40px;
     margin: 5px 0px;
     border-radius: 10px;
-    border: 3px solid #5f2c82;
+    border: 2px solid #5f2c82;
 }
 
 div.campo i {
@@ -135,9 +136,10 @@ div.campo > input {
     border: none;
     width: calc(100% - 43.93px);
     height: 100%;
-    transform: translateY(-10px);
+    
     border-radius: 8px;
     padding: 3px;
+    transform: translateY(-9px);
     
 }
 
